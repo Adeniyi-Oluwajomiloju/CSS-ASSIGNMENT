@@ -1,0 +1,105 @@
+h1{
+    font-family: Roboto;
+    font-size:xx-large;
+    font-style:italic;
+    text-align:center;
+    font-weight: bolder;
+    color: red;
+    background-color: gold;
+} /* */
+
+h2{
+    font-family: Roboto;
+    color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.test {
+    width: 70px;
+    height: 70px;
+    display: inline;
+  }
+
+p{
+    text-align: justify;
+}
+/*some selectors below*/
+
+hili {
+    background-color: greenyellow;
+} /* this can be used for text which i want to highlight in a webpage*/
+
+strong {
+    color:seagreen
+} /* to bolden and change color */
+
+#bold{
+    font-size: xx-large;
+    font-weight:400;
+}
+
+em {
+    color:darkslategrey;
+    text-shadow: 1px;
+} /*to change color */
+
+.cent{
+    text-align:center;
+}
+div{
+    height: 150px;
+    width: 90%;
+}
+
+div{
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+/*the order in which border info is put is:border:  <border-width> || <border-style> || <color>*/
+
+
+#nav_bar .navbutton li{
+    display: inline;
+}
+
+.listed{
+    display: block;
+}
+
+.navspacing{
+    letter-spacing:normal;
+    word-spacing: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
